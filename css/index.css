@@ -48,9 +48,12 @@ ul{
 /* 搜索 */
 .search-wrap{
     height: 44px;
-    position: relative;
+    position: fixed;
     overflow: hidden;
-    background-color: gray;
+    width: 100%;
+    min-width: 320px;
+    max-width: 640px;
+    /* background-color: gray; */
 }
 .search-wrap .search-btn{
     width: 40px;
@@ -105,4 +108,16 @@ ul{
     top: 0;
     right: -8px;
     background-color: gray;
+}
+.sou{
+    position: absolute;
+    top: 9px;
+    left: 50px;
+    width: 16px;
+    height: 15px;
+    background: url(../images/jd-sprites.png) no-repeat -81px 0;
+    background-size: 200px auto;
+}
+.sliper img{
+    width: 100%;
 }
