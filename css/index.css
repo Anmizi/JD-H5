@@ -8,11 +8,19 @@ body{
     line-height: 1.5;
     font-size: 14px;
     color: #666;
+    height: 2000px;
 }
 ul{
     margin: 0;
     padding: 0;
     list-style: none;
+}
+a{
+    color: #666;
+    text-decoration: none;
+}
+img{
+    vertical-align: top;
 }
 .app {
     height: 45px;
@@ -119,5 +127,46 @@ ul{
     background-size: 200px auto;
 }
 .sliper img{
+    width: 100%;
+}
+/* 品牌日 */
+.brand{
+    border-radius: 10px 10px 0 0;
+    /* overflow: hidden; */
+    background-color: green;
+}
+.brand div{
+    float: left;
+    width: 33.33%;
+}
+.brand img{
+    width: 100%;
+}
+/* nav */
+
+nav a{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+nav a span{
+    display: block;
+}
+nav a img{
+    margin: 10px 0;
+    width: 40px;
+}
+/* news */
+.news a{
+    float: left;
+}
+.news a:nth-child(1){
+    width: 50%;
+}
+.news a:nth-child(2),
+.news a:nth-child(3){
+    width: 25%;
+}
+.news img{
     width: 100%;
 }
